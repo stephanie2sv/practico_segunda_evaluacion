@@ -1,0 +1,101 @@
+body{
+    background-image: url(img/fondoretro.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+
+
+h1{
+    text-align: center;
+    font-size: 52px;
+    margin: auto;
+    color: white;
+    font-family: "Retro";
+}
+
+@font-face {
+    font-family: "Retro";
+    src: url(fuente/RETROTECH.ttf) format('truetype');
+}
+
+table{
+    text-align: center;
+    table-layout: fixed;
+    background-color:rgb(62, 59, 59) ;
+    /* border-collapse:separate; */
+    border: 5px groove RGB(237, 175, 5);
+    border: radius 10px; ;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    empty-cells: show;
+}
+
+.marcador{
+    background-color: black;
+    border:5px solid black;
+    font-family: "Retro";
+    border-bottom-color: white ;
+}
+
+.superior{
+    color: red;
+    size: 40px;
+    margin-right: 50px;
+    
+}
+.inferior{
+    color: white;
+    size: 32px;
+    margin-right: 50px;
+
+}
+td{
+    width: 40px;
+    height: 40px;
+    border: 1px outset gray;
+    border-radius: 2px;
+    background-color:rgb(62, 59, 59) ;
+}
+
+
+.primero{
+    background-color:rgb(62, 59, 59);
+}
+.segundo{
+    background-color:rgb(239, 5, 5);
+}
+
+.tercero{
+    background-color:rgb(239, 216, 5);
+}
+
+.cuarto{
+    background-color:blue;
+}
+
+.quinto{
+    background-color:violet;
+}
+
+.sexto{
+    background-color:green;
+}
+
+.gris{
+    border-color: rgb(62, 59, 59) ;
+    border: 0px;
+}
+
+.ball{
+    width:20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#barra{
+    border-image-source: url(img/barra.png);
+   
+}
